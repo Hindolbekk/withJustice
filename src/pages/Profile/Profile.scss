@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Profile{
+    padding-top: 10px;
+    max-width: 1200px;
+ display: flex;
+ justify-content: flex-start;
+ margin: 0 auto;
+}
+.ProfileImage{
+    max-width: 700px;
+    height: 600px;
+}
+.ProfileText{
+    text-align: start;
+    padding-top: 100px;
+    .title{
+        color: #000;
+        font-family: Inika;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        .describtion{
+        color: rgba(0, 0, 0, 0.70);
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+}
+@media(max-width:1115px){
+    .InfoText{
+        text-align: start;
+        padding-top: 0px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: 500;
+            }
+            .describtion{
+            font-size: 18px;
+            font-weight: 300;
+            }
+            .InfoImage{
+                max-width: 500px;
+                height: 400px;
+            }
+}
+@media(max-width:750px){
+    .Info{
+        padding-top: 10px;
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+    }
+    .InfoText{
+        text-align: start;
+        padding-top: 5px;
+        padding-left: 5px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: 500;
+            }
+            .describtion{
+            font-size: 18px;
+            font-weight: 300;
+            }
+            .InfoImage{
+                max-width:750px;
+                height: 500px;
+            }
+}
+@media(max-width:500px){
+    .Info{
+    padding-top: 5px;
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+    }
+    .InfoText{
+        text-align: start;
+        padding-top: 3px;
+        padding-left: 3px;
+        }
+        .title{
+            font-size: 20px;
+            font-weight: 300;
+            }
+            .describtion{
+            font-size: 15px;
+            font-weight: 200;
+            }
+            .InfoImage{
+                max-width:500px;
+                height: 400px;
+            }
+}
