@@ -1,8 +1,13 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
+import Header from './components/Header/Header';
+import Login from './pages/Login/Login';
 function App() {
   return (
     <div className="App">
-     <h1>Boshladikmi</h1>
+     <Routes>
+      <Route index element={<Login/>}/>
+     </Routes>
     </div>
   );
 }
