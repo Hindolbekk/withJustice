@@ -9,6 +9,12 @@
  display: flex;
  justify-content: flex-start;
  margin: 0 auto;
+ flex-direction: column;
+ padding-bottom: 100px;
+}
+.profileInfo{
+    display: flex;
+    flex-direction: row;
 }
 .ProfileImage{
     max-width: 700px;
@@ -101,4 +107,84 @@
                 max-width:500px;
                 height: 400px;
             }
+}
+.Login{
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.LoginCheck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+       color: black;
+       font-family: DM Serif Display;
+       font-size: 40px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       padding-bottom: 15px;
+       
+    }
+    .inp{
+     margin-bottom: 40px;
+    }
+    p{   margin-top: -15px;
+        color: #A5A5A5;
+        font-family: Lexend Deca;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+}        
+.checkingButton{
+    width: 200px;
+    background-color: green !important;
+}
+.textAria{
+    margin-bottom: 40px;
+}
+.Footer{
+    margin-top: 50px;
+    background: #054C73;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.Footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin: 0 auto;
+    padding-top: 20px;
+    .list__item{
+        color:  #FFF;
+     font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+}
+.footer__connect__list{
+    margin-top: 15px;
+    margin-left: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .footer__connect__item{
+        i{
+            color: #7562E0;
+            width: 32px;
+        height: 32px;
+        }
+       
+    }
 }

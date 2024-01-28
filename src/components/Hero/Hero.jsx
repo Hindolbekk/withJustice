@@ -6,13 +6,15 @@ function Hero() {
     <div className='Hero'>
         <img className='heroImage' src={heroImage}alt="" />
         <div className="heroInfo">
-       <h2>Discover Our New Collection</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta 
-        quibusdam ipsum eligendi voluptate, temporibus fugit nemo porro 
-        possimus voluptates fuga rerum accusamus earum libero laborum
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta 
-        quibusdam ipsum eligendi voluptate, temporibus fugit nemo porro 
-        possimus voluptates fuga rerum accusamus earum libero laborum?</p>
+       <h2>The withJustice platform: </h2>
+       <p>The purpose of the withJustice platform: Currently, in the Republic
+         of Uzbekistan, the state provides assistance to the poor. Although some
+          people do not need this assistance, 
+        they appropriate these services by bribing the officials in charge..platform that 
+        monitors and ensures that the state aid to low-income families 
+        of Uzbekistan reaches its owners. In addition, they can apply
+         online to the appropriate places 
+        in case of lack of aid or in case of corruption.</p>
         </div>
         
     </div>

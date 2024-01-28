@@ -1,23 +1,32 @@
 import React from 'react';
 import "./Header.scss";
 import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
 function Header() {
+  let navigate=useNavigate();
+  
+  function navigateRegis() {
+      navigate('/registiration');
+} 
+function navigateLogin() {
+    navigate('/login');
+} 
   return (
     <div className='Header'>
        <div className="headerHome">
-        <label className='logo'>Justice Worrios</label>
+        <label className='logo'>Law with Justice</label>
         <ul className='list'>
           <li className='list__item'>
-            <a href="#" >all</a>
+            <a href="#" >About</a>
           </li>
           <li className='list__item'>
-            <a href="#"  >animals</a>
+            <a href="#" >Social Benefits</a>
           </li>
           <li className='list__item'>
-            <a href="#"  >sport</a>
+            <a href="#"  >Goal</a>
           </li>
-          <li><Button className='btnHeader' variant="contained" href="#contained-buttons">VISIT</Button></li>
-          <li><Button className='btnHeader' variant="contained" href="#contained-buttons">REGISTRATION</Button></li>
+          <li><Button className='btnHeader' onClick={navigateLogin} variant="contained" href="#contained-buttons">VISIT</Button></li>
+          <li><Button className='btnHeader' onClick={navigateRegis} variant="contained" href="#contained-buttons">REGISTRATION</Button></li>
           </ul>
           </div>
     </div>
